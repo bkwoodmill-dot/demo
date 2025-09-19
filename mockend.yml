@@ -1,4 +1,9 @@
 models:
+  CareGuide:
+    data: [
+      {id:1, name:"Care Guide 1",title:"Title 1",title_short:"Short",min_age_days:1,max_age_days:43800,gender:"M",age_group:"B"}
+    ]
+    
   Post:
     hasMany: [Comment]
     fake:
