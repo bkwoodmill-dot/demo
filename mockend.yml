@@ -1,16 +1,16 @@
 models:
   Post:
     data: [
-      { title: "Abdominal Pain" },
-      { title: "Back Pain" },
-      { title: "Chest Pain" },
-      { title: "Earache" },
-      { title: "Frostbite" },
-      { title: "Headache"},
-      { title: "Knee Injury" },
-      { title: "Panic Attack" },
-      { title: "Scrape"},
-      { title: "Toothache" },
+      { "title": "Abdominal Pain", "id":122 },
+      { "title": "Back Pain", "id": 128 },
+      { "title": "Chest Pain", "id": 131 },
+      { "title": "Earache", "id": 137 },
+      { "title": "Frostbite", "id": 267 },
+      { "title": "Headache", "id":150},
+      { "title": "Knee Injury", "id":189 },
+      { "title": "Panic Attack", "id":377 },
+      { "title": "Scrape", "id":193 },
+      { "title": "Toothache", "id":183 },
     ]
   Comment:
     belongsTo: [Post]
