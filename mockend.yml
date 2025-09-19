@@ -1,7 +1,14 @@
 models:
   Post:
+    fake:
+      _count: 10
+      title: { loremWords: [1, 3] }
+      author: name
+ 
+  Post:
     data: [
-      {id:1, name:"Care Guide 1",title:"Title 1",title_short:"Short",min_age_days:1,max_age_days:43800,gender:"M",age_group:"B"}
+      { title: Title 1 },
+      { title: Title 2 },
     ]
   Comment:
     belongsTo: [Post]
